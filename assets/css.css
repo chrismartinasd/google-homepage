@@ -4,6 +4,20 @@ body {
    padding:0;
    height:100%;
    font-family: arial, sans-serif;
+   font-size: small;
+}
+
+#navbar {
+  margin-top: 5px;
+  margin-right: 20px;
+  float: right;
+  font-size: small;
+}
+
+#square {
+  height: 5px;
+  width: 5px;
+  background-color: gray;
 }
 
 #footer {
@@ -16,12 +30,16 @@ body {
 
 #entrar {
     background-color: #4285f4;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid #4285f4;
-    font-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 7px 12px;
+    margin: 10px 5px;
+    float: right;
 }
 
-img {
+#imglogo {
    position: relative;
    margin-top: 11%;
    margin-left: 43%;
@@ -34,10 +52,21 @@ img {
     height: 30px;
     font-family: sans-serif;
     font-size: 18px;
-    appearance: none;
-    box-shadow: none;
-    border-radius: none;
+    margin-top: 1%;
     margin-left: 35%;
+}
+
+#button {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 43%;
+  vertical-align: middle;
+}
+
+.buttoncolor {
+  background-color: #f1f1f1;
+  margin: 5px 4px;
+  padding: 4px 12px 6px;
 }
 
 ul {
